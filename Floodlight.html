@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Ads 360 / Floodlight Tag SOP</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html"><h1>SOP</h1></a> <!-- Clicking on SOP takes to homepage -->
+    <h2>Floodlight</h2>
+    <div class="search-container">
+      <input type="text" id="search-input" class="search-bar" placeholder="Search">
+      <button class="search-button" onclick="performSearch()">Search</button>
+      <div id="searchResults" class="search-results"></div> <!-- Container for search results -->
+    </div>
+    <script src="./script.js" defer></script>
+  </header>
+
+  <div class="button-container">
+    <button onclick="loadDoc('https://docs.google.com/document/d/1i1_x-RriJa9Ru1gS7P6fgZZa5wqW2hQuiivHEDsPTCA/preview')">Floodlight Tag SOP</button>
+    <button onclick="loadDoc('https://docs.google.com/document/d/1TvrVwzmPVjlHQfDIJYug6If97j0Yd5B9gQcjRxzwi_Y/preview')">Enhanced Conversions for SA 360</button>
+  </div>
+
+  <section>
+    <iframe id="docFrame" src="https://docs.google.com/document/d/1i1_x-RriJa9Ru1gS7P6fgZZa5wqW2hQuiivHEDsPTCA/preview"></iframe>
+  </section>
+
+  <!-- Add the card structure for search -->
+  <div class="card" style="display: none;">
+    <h2>Floodlight Tag SOP</h2>
+  </div>
+  <div class="card" style="display: none;">
+    <h2>Enhanced Conversions for SA 360</h2>
+  </div>
+
+</body>
+
+</html>

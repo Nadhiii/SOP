@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Tag",
+        "url": "/google-services.html",
+        "description": "Google Ads and Google Analytics.",
+        "keywords": ["google", "services", "tag", "analytics", "GA4"]
+    },
+    {
+        "title": "Shopping",
+        "url": "#",
+        "description": "Google Shopping.",
+        "keywords": ["shopping", "buy", "products"]
+    },
+    {
+        "title": "Firebase",
+        "url": "#",
+        "description": "Firebase.",
+        "keywords": ["firebase", "app"]
+    },
+    {
+        "title": "Offline Conversion Tracking",
+        "url": "#",
+        "description": "Offline conversions.",
+        "keywords": ["offline", "conversions"]
+    },
+    {
+        "title": "LCS",
+        "url": "./LCS.html",
+        "description": "LCS.",
+        "keywords": ["LCS", "Gold", "titanium", "platinum"]
+    },
+    {
+        "title": "Search Ads 360",
+        "url": "./Floodlight.html",
+        "description": "Search Ads 360.",
+        "keywords": ["ads", "search", "360", "floodlight"]
+    }
+]

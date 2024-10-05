@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><h1>SOP</h1></a> <!-- Clicking on SOP takes to homepage -->
+    <div class="search-container">
+      <input type="text" id="search-input" class="search-bar" placeholder="Search">
+      <button class="search-button" onclick="performSearch()">Search</button>
+      <div id="searchResults" class="search-results"></div> <!-- Container for search results -->
+    </div>
+    <script src="./script.js" defer></script>
+  </header>
+
+  <main>
+    <section class="card-container">
+      <a class="card" href="./Ads_Sop.html">
+        <h2>Google Ads</h2>
+        <img src="./Assets/AdWords-Logo.png" alt="Google Ads Logo" id="Adwords-Logo">
+      </a>
+
+      <a class="card" href="./Analytics_Sop.html" id="Analytics-Logo">
+        <h2>Google Analytics</h2>
+        <img src="./Assets/analytics_logo.png" alt="Google Analytics Logo">
+      </a>
+    </section>
+  </main>
+
+  <!-- Add the card structure for search -->
+  <div class="card" style="display: none;">
+    <h2>Google Ads</h2>
+  </div>
+  <div class="card" style="display: none;">
+    <h2>Google Analytics</h2>
+  </div>
+
+</body>
+
+</html>
