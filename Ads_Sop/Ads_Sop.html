@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Ads 360 / Tag Documentation</title>
+  <link rel="stylesheet" href="./Ads_Sop.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>SOP</h1>
+    <div class="search-container">
+      <input type="text" id="search-input" class="search-bar" placeholder="Search">
+      <button class="search-button" onclick="performSearch()">Search</button>
+    </div>
+  </header>
+
+  <div class="button-container">
+    <button onclick="loadDoc('https://docs.google.com/document/d/1By5Jv40kGeGWFUzMXT9xuNAeUl_s1clYybZO1nhNnAI/preview')">Ads conversion tracking</button>
+    <button onclick="loadDoc('https://docs.google.com/document/d/1rbGRjzyxHuL3FJQfNBh48Rxhg81V6maOz2JRDJhuT-A/preview')">Ads conversion troubleshooting</button>
+    <button onclick="loadDoc('https://docs.google.com/document/d/1awOuj4rFBrukfByYuvcCFOAGbZX7H1j_EelPeCaUcoU/preview')">Ads remarketing</button>
+    <button onclick="loadDoc('https://docs.google.com/document/d/1NVGBhJ-bYAq-F-55Te2T7Kz1HOTuj0KZc-SBbdfyfyM/preview')">Dynamic Remarketing-Retail</button>
+    <button onclick="loadDoc('https://docs.google.com/document/d/12-KanpXQ9uQDkZNAbN_QUXuiqbuy5dQcuQ12j6F1OGo/preview')">Dynamic Remarketing-non-Retail</button>
+    <button onclick="loadDoc('https://docs.google.com/document/d/1es_tvx8nhMkWn-Hh9n3Jd3vzo91RpY6PuwMBlsTd-kA/preview')">Website Call conversions</button>
+    <button onclick="loadDoc('https://docs.google.com/document/d/1oKEXOE1S7giQO_Zk3zBxHSicF0jcU-9Y899yzez8p9U/preview')">Consent mode</button>
+    <button onclick="loadDoc('https://docs.google.com/document/d/1R59-cUeBaX-5dOxAXxvzsRXgkVdFPzTzOCSBQWt42H0/preview')">Enhanced conversion</button>
+  </div>
+
+  <section>
+    <iframe id="docFrame" src="https://docs.google.com/document/d/1By5Jv40kGeGWFUzMXT9xuNAeUl_s1clYybZO1nhNnAI/preview"></iframe>
+  </section>
+
+  <script src="/index/script.js"></script>
+</body>
+
+</html>
